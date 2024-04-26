@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://parkjaemin.czqpiiaxuzcd.ap-northeast-2.rds.amazonaws.com:3306/ParkJaemin
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: ParkJaemin
+    password: woals1212!
+  jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    servlet:
+      multipart:
+        enabled: true
+        location: C:\update
+        max-request-size: 30MB
+        max-file-size: 30MB
+security:
+  jwt:
+    secret: secret-value
+shop:
+  upload:
+    path: C:\update
+
+UserController:
+  signup: Creates user and returns its JWT token
+  signin: Authenticates user and returns its JWT token

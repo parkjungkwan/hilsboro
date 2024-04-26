@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "spring.jpa.servlet.multipart.enabled",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.servlet.multipart.enabled."
+    }
+  ]
+}

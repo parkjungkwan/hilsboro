@@ -1,0 +1,6 @@
+export {default as QnaList} from 'webapp/qna/component/QnaList'
+export {default as QnaSearch} from 'webapp/qna/component/QnaSearch'
+export {default as QnaPageList} from 'webapp/qna/component/QnaPageList'
+export {default as QnaRegister} from 'webapp/qna/component/QnaRegister'
+export {default as QnaRead} from 'webapp/qna/component/QnaRead'
+export{default as QnaService} from 'webapp/qna/service/qna.service'
